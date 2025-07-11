@@ -14,7 +14,7 @@ from data_generation_agent_with_errors import generate_sql_for_industry_subdomai
 from data_generation_agent import generate_ideal_sql_for_industry_subdomain 
 import tempfile
 
-CSV_FOLDER = r"D:\LangChain\TCS Project\backend\Industry-Sub_domain Data"
+CSV_FOLDER = r"D:\PROJECTS\DataVerse Hub\Project Code\backend\Industry-Sub_domain Data"
 MERGED_FILE_NAME = "__merged_all_data.csv"
 MERGED_FILE_PATH = os.path.join(CSV_FOLDER, MERGED_FILE_NAME)
 

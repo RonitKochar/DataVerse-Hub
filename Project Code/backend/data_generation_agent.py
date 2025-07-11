@@ -6,7 +6,7 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain.agents import create_react_agent, AgentExecutor
 from langchain_core.prompts import PromptTemplate
 
-CSV_FOLDER = r"D:\LangChain\TCS Project\backend\Industry-Sub_domain Data"
+CSV_FOLDER = r"D:\PROJECTS\DataVerse Hub\Project Code\backend\Industry-Sub_domain Data"
 
 def clear_directory_of_data_files(directory):
     # Remove all CSV and SQL files in the directory

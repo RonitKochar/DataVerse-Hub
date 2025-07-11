@@ -8,7 +8,7 @@ from langchain_experimental.agents import create_csv_agent
 from langchain_experimental.tools import PythonREPLTool
 
 # Directory containing CSV files
-CSV_FOLDER = r"D:\LangChain\TCS Project\backend\Industry-Sub_domain Data"
+CSV_FOLDER = r"D:\PROJECTS\DataVerse Hub\Project Code\backend\Industry-Sub_domain Data"
 MERGED_FILE_NAME = "__merged_all_data.csv"
 temp_merged_path = os.path.join(CSV_FOLDER, MERGED_FILE_NAME)
 

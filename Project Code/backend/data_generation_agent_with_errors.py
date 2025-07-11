@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from langchain.agents import create_react_agent, AgentExecutor
 from langchain_core.prompts import PromptTemplate
 
-CSV_FOLDER = r"D:\LangChain\TCS Project\backend\Industry-Sub_domain Data"
+CSV_FOLDER = r"D:\PROJECTS\DataVerse Hub\Project Code\backend\Industry-Sub_domain Data"
 
 def generate_sales_sql(question: str, csv_folder: str) -> str:
     if not question.strip():
