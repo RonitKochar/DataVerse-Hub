@@ -1,0 +1,2 @@
+artists_data.csv: delete column 'artist_id'
+artists_data.csv: remove rows where 'debut_year' is 2006
