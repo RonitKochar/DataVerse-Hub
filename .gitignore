@@ -1,0 +1,7 @@
+API_KEYS/
+Presentation/
+Project Code/.venv/
+Project Code/backend/__pycache__/
+Project Code/backend/Industry-Sub_domain Data/
+Project Code/backend/.env
+Project Code/backend/modification_instructions.txt
